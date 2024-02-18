@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table {
+    background-color: aqua;
+}
+#link {
+    border: 2px solid red;
+    background-color: rgb(20, 100, 205);
+}
+#klin {
+    border: 2px solid red;
+    background-color: rgb(20, 100, 205);
+}
+tr{
+    border: 2px solid red;
+}
+#chemistry {
+    background-color: rgb(210, 00, 185);
+}
+#biology {
+    background-color: rgb(20, 170, 255);
+}
+#math {
+    background-color: rgb(50, 170, 200);
+}
+#physics{
+    background-color: blue;
+}
+#english{
+    background-color: greenyellow;
+}
+#a {
+    background-color: aquamarine;
+}
+#b {
+    background-color: blueviolet;
+}
+#c {
+    background-color: pink;
+}
+ #d{
+    background-color: blue;
+}
+#e {
+    background-color: beige;
+}
+tr {
+    border: 2px solid red;
+}
