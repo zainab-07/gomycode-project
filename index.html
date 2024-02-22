@@ -1,127 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> eniola html project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+        
 </head>
 <body>
-    <table border="1" cellpadding="5" cellspacing="5">
-        <thead id="link"> 
-         <th colspan="8"> Ade ss2 class teacher of st.benedict high school</th>
-         </thead>
-        <thead id="klin">
-            <th rowspan="2">S/N</th>
-            <th rowspan="2">Names</th>
-            <th colspan="5">subject</th>
-            <th rowspan="2">total score</th>
-            <tr>
-                <td>mathematics</td>
-                <td>physics</td>
-                <td>biology</td>
-                <td>chemistry</td>
-                <td>english</td>
+    <header>
+        <nav>
+         
+           <label  class="logo">designx</label>
+         
+         
+            <ul>
+                <li><a class=".active" href="./index.html">home</a></li>
+                <li><a href="./work.html">work</a></li>
+               <li><a href="./resume.html">resume</a></li>
+                <li><a href="./contact.html">contact</a></li>
+                <li> <a href="./about.html">about</a></li>
+                
+            </ul>
+        </nav>
+        </header>
+           <div>
+    <main>
+  
+ <!-- this is a video link <br>-->
+ <video width="1000" height="480"  controls muted loop class="video">
+    <source src="How to Create Responsive Navigation Bar using HTML and CSS.mp4">
+ </video><br>
+ <audio controls class="music">
+    <source src="Timaya-–-Dey-Your-Dey.mp3">
 
-            </tr>
-            
 
-        </thead>
-        <tbody>
-            <tr>
-                <td >1</td>
-                <td>adekunle</td>
-                <td id="chemistry">72</td>
-                <td id="biology">43</td>
-                <td id="math">78</td>
-                <td id="english">73</td>
-                <td id="physics">37</td>
-                <td>303</td>
+</audio>
+    </main>
+    </div>
 
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>john</td>
-                <td id="chemistry">42</td>
-                <td id="biology">64</td>
-                <td id="math">70</td>
-                <td id="english">55</td>
-                <td id="physics">58</td>
-                <td>289</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>peter</td>
-                <td id="chemistry">62</td>
-                <td id="biology">40</td>
-                <td id="math">73</td>
-                <td id="english">75</td>
-                <td id="physics">99</td>
-                <td>349</td>  
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>rukayat</td>
-                <td id="chemistry">77</td>
-                <td id="biology">75</td>
-                <td id="math">78</td>
-                <td id="english">75</td>
-                <td id="physics">82</td>
-                <td>383</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>paul</td>
-                <td id="chemistry">72</td>
-                <td id="biology">40</td>
-                <td id="math">72</td>
-                <td id="english">70</td>
-                <td id="physics">97</td>
-                <td>351</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>victor</td>
-                <td id="chemistry">76</td>
-                <td id="biology">64</td>
-                <td id="math">48</td>
-                <td id="english">99</td>
-                <td id="physics">37</td>
-                <td>324</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>john</td>
-                <td id="chemistry">62</td>
-                <td id="biology">54</td>
-                <td id="math">78</td>
-                <td id="english">75</td>
-                <td id="physics">82</td>
-                <td>333</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>doe</td>
-                <td id="chemistry">52</td>
-                <td id="biology">84</td>
-                <td id="math">48</td>
-                <td id="english">85</td>
-                <td id="physics">27</td>
-                <td>296</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>stephen</td>
-                <td id="chemistry">92</td>
-                <td id="biology">44</td>
-                <td id="math">78</td>
-                <td id="english">65</td>
-                <td id="physics">61</td>
-                <td>340</td>
-            </tr>
-        </tbody>
-    </table><br>
+    <footer>
+        <i class="fa fa-github"></i> copyright@frostal
+    </footer>
+    <br>
 
+    <!--A table -->
+    <h1 class="lower">FOOD AND RECIPE</h1>
     <table border="1" cellpadding="5" cellspacing="5">
         <thead id="link">
             <th colspan="7">List of food and their recipe</th>
@@ -180,5 +108,43 @@
 
         </tbody>
     </table>
-</body>
+
+    <br>
+    <h1 class="capital">FORM</h1>
+    <div class="pluto">
+        <h1>Create Account</h1>
+       <p> sign up now to preview your dashboard and start tracking your blood pressure
+         and BMI, to run your first panel, visit a healthtab <u>location</u>
+            Already have an account?<strong>log in</strong>
+        </p> 
+        <form id="styling">
+            <label for="fullname" id="1">fullname</label><br>
+            <input type="text" id="fullname" name="fname"  ><br>
+    
+            <label for="lastname">lastname</label><br>
+            <input type="text" id="lastname" name="lname" >
+    
+            <label for="email">email</label>
+            <input type="email" id="email" name="email"><br>
+    
+            <label for="password">password</label><br>
+            <input type="password" id="password" name="password">
+    
+            <label for="date of birth">date of birth</label>
+            <input type="date" id="date of birth" name="date of birth">
+             <br><br>
+            <label for="gender">gender</label>
+            <select name="gender" id="gender">
+            <option value="">select gender</option>
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">others</option>
+            </select>
+            <br><br>
+            <button type="button" onclick= alert("sucessfull-submitted")>hi</button>
+     </form>
+     </div>
+
+ </body>   
+
 </html>
