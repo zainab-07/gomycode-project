@@ -1,51 +1,117 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
-table {
-    background-color: aqua;
+body{
+    font-family: montserrat;
+
 }
-#link {
-    border: 2px solid red;
-    background-color: rgb(20, 100, 205);
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
 }
-#klin {
-    border: 2px solid red;
-    background-color: rgb(20, 100, 205);
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0,100px;
+    font-weight: bold;
 }
-tr{
-    border: 2px solid red;
+nav,ul{
+    float: right;
+    margin-right: 20px;
+
 }
-#chemistry {
-    background-color: rgb(210, 00, 185);
+nav,ul,li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
-#biology {
-    background-color: rgb(20, 170, 255);
+nav,ul,li,a{ 
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3%;
 }
-#math {
-    background-color: rgb(50, 170, 200);
+
+
+
+.video{
+  margin: 20px;
+  border: 3px;
+ 
 }
-#physics{
-    background-color: blue;
+.music{
+  display:inline;
+  height: 40px;
+  
 }
-#english{
-    background-color: greenyellow;
+body{
+  /* background-image: url(eduford_img/background.jpg); */
+  background-color: bisque;
+
 }
+
+
 #a {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 #b {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 #c {
-    background-color: pink;
+  background-color: pink;
 }
- #d{
-    background-color: blue;
+#d{
+  background-color: blue;
 }
 #e {
-    background-color: beige;
+  background-color: beige;
 }
 tr {
-    border: 2px solid red;
+  border: 2px solid red;
 }
+table {
+  background-color: aqua;
+  margin: 50px;
+}
+
+
+.pluto{
+  background-color: aliceblue;
+  /* margin: 300px; */
+  width: 50%;
+  margin: 20px;
+
+}
+
+#fullname {
+  background-color: aqua;
+}
+strong{
+  color: blue;
+}
+h1{
+  /* text-align: center; */
+}
+button{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+p{
+  color: rgb(150, 75, 230);
+}
+#styling,p,h1{
+ padding: 10px;
+}
+.capital{
+  margin-bottom: 0px;
+}
+ 
+
+
